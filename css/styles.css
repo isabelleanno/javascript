@@ -1,0 +1,83 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+img {
+  width: 70%;
+}
+hr {
+  width: 50%;
+}
+img.logo,
+img[src="images/WK10InkscapeDrawing.svg"],
+img[src="images/superimposed_anno.png"] {
+  width: 30%;
+}
+img[src="images/blue-elephant.svg"],
+img [src="images/WK11InfoPoster.svg"],
+img[src="images/cat-drawing.png"] {
+  width: 50%;
+}
+a {
+  text-decoration: none !important;
+}
+a.button {
+  border: 2px solid black;
+  padding: 1rem;
+  color: black;
+  margin-top: 0.5rem;
+
+  background-color: rgba(161, 255, 255, 0.452);
+}
+a:hover {
+  text-decoration: underline !important;
+}
+a.button:hover {
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: underline;
+  color: rgb(43, 43, 43);
+  border: 2px solid rgb(43, 43, 43);
+  background-color: rgba(121, 255, 255, 0.257);
+}
+footer {
+  padding: 12px;
+  background-color: rgb(233, 242, 242);
+}
+footer > p {
+  margin: 0;
+}
+.middle {
+  margin: 7rem 0;
+}
+@media screen and (max-width: 700px) {
+  img [src="images/WK10InkscapeDrawing.svg"] {
+    width: 80%;
+  }
+  img[src="images/cat-drawing.png"] {
+    width: 60%;
+  }
+  img[src="images/superimposed_anno.png"] {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img,
+  img.logo,
+  img[src="images/cat-drawing.png"] {
+    width: 80%;
+  }
+  img[src="images/superimposed_anno.png"] {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img [src="images/WK10InkscapeDrawing.svg"],
+  img[src="images/cat-drawing.png"] {
+    width: 100%;
+  }
+  img[src="images/superimposed_anno.png"] {
+    width: 70%;
+  }
+}
